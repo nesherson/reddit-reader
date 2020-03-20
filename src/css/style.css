@@ -8,10 +8,19 @@ body {
     max-width: 1100px;
     margin: 0 auto;
 }
+
+h1 {
+    padding-left: 17px;
+}
+
 a {
     text-decoration: none;
     width: 100%;
     color: inherit;
+}
+
+a:hover {
+    background-color:     
 }
 
 a:visited {
@@ -19,7 +28,7 @@ a:visited {
 }
 
 span {
-    color: #999;
+    color: #808080;
     font-size: 0.9rem;
     margin-right: 10px;
 }
@@ -31,7 +40,8 @@ ul {
 }
 
 li {
-    padding: 10px 10px 10px 0;
+    padding: 10px 10px 10px 17px;
+    margin-bottom: 7px;
 }
 
 li p {
